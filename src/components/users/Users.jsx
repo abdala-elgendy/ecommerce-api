@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-function Users() {
+function GetUsers() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
